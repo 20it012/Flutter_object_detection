@@ -17,6 +17,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  camera:
+    dependency: "direct main"
+    description:
+      name: camera
+      sha256: "89bb02becc33ef3a9e3338efa856823592ff5587fa651bd468f25f3a8fb56ad2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.8+17"
   characters:
     dependency: transitive
     description:
@@ -194,3 +202,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=2.18.0 <3.0.0"
+  flutter: ">=1.12.13+hotfix.5"

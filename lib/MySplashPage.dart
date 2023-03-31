@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_object_detection/HomePage.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 class MySplashPage extends StatefulWidget {
@@ -13,7 +14,7 @@ class _MySplashPageState extends State<MySplashPage> {
   Widget build(BuildContext context) {
     return SplashScreen(
       seconds: 12,
-      // navigateAfterSeconds: ,
+      navigateAfterSeconds: HomePage(),
       imageBackground: Image.asset("assets/back.jpg").image,
       useLoader: true,
       loaderColor: Colors.pink,
