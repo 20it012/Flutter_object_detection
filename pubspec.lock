@@ -256,6 +256,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
+  loader:
+    dependency: "direct main"
+    description:
+      name: loader
+      sha256: "65848ea3bffb88766a2bd13cf68034b97a3d8cc34eb159daed5d4929135cef49"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   matcher:
     dependency: transitive
     description:

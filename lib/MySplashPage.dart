@@ -25,7 +25,8 @@ class _MySplashPageState extends State<MySplashPage> {
       // height: double.infinity,
       // width: double.infinity,
       // alignment: Alignment.center,
-      //
+
+      // loader use here
       // useLoader: true,
       // loaderColor: Colors.pink,
       // loadingText: const Text("loading...", style: TextStyle(color: Colors.white),),
